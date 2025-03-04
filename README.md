@@ -13,7 +13,7 @@ A free online tool to automatically remove backgrounds from images using AI-powe
 2. Wait for automatic background removal
 3. Download result with one click
 
-[Live Demo](https://<BAPUx03>.github.io/background-remover)
+[Live Demo](https://bapux03.github.io/background-remover/)
 
 ## Technologies
 - HTML5/CSS3
