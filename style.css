@@ -1,0 +1,40 @@
+/* Drop Zone Styles */
+.drop-zone {
+    border: 2px dashed #ccc;
+    transition: all 0.3s ease;
+}
+
+.drop-zone.dragover {
+    border-color: #4F46E5;
+    background-color: rgba(79, 70, 229, 0.1);
+}
+
+/* Output Box Styles */
+.output-box {
+    border: 2px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #f9fafb;
+}
+
+/* Download Button Animation */
+.download-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.download-btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3), transparent);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s ease;
+}
+
+.download-btn:active::after {
+    transform: translate(-50%, -50%) scale(1);
+}
